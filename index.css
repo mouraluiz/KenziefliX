@@ -1,0 +1,144 @@
+body,
+section,
+article,
+main,
+aside,
+footer,
+img,
+nav,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+div,
+p,
+figure,
+figcaption {
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+html {
+
+    font-size: 16px;
+}
+
+ul {
+    border-radius: 5px;
+    display: flex;
+    list-style: none;
+    width: 700px;
+    justify-content: space-around;
+
+}
+
+body {
+    background: #000000;
+}
+
+.principal {
+    height: 1000px;
+    width: 1380px;
+    left: 1570px;
+    top: -210px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.topo {
+    margin-top: 50px;
+    width: 229px;
+    height: 68px;
+}
+
+.pergunta {
+    width: 334px;
+    height: 42px;
+    margin-top: 18px;
+
+}
+
+.abaixo {
+    width: 206px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+
+}
+
+.cards {
+    display: flex;
+    width: 700px;
+    height: 700px;
+    border-radius: 5px;
+    text-align: center;
+     margin-top: 50px;  /*add */
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+    color: #9C9C9C;
+}
+
+.card_perfil {
+    width: 160px;
+    height: 160px;
+
+}
+
+.card_imagem {
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.card_perfil:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+p:hover {
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.btn {
+    border: solid #9C9C9C;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #000000;
+    outline: none;
+    color: #9C9C9C;
+    border-radius: 5px;
+    
+
+}
+
+.btn:hover {
+    background-color: #9C9C9C;
+    color: white;
+}
+
+.card_perfil:hover {
+    border: solid #9C9C9C;
+    border-radius: 10px;
+
+}
